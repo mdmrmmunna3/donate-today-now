@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.top-banner{
+    background-image: url(images/donate16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading-details{
+    text-align: center;
+    height: 400px;
+    padding-top: 10px;
+}
+
+h1 {
+ 
+    font-size: 35px;
+    color: white;
+}
+
+p{
+    font-size: 18px;
+    color: #cfc1c1;
+}
+
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(tomato,brown);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #fff;
+}
