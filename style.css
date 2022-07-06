@@ -126,6 +126,20 @@ p{
     padding: 30px 20px;
 }
 
+.support-blog{
+    display: flex;
+}
+
+.contribute{
+    width: 50%;
+    margin: 5% 7%;
+}
+
+.contribute img {
+    width: 95%;
+    border-radius: 10px;
+}
+
 
 .my-update{
     text-align: center;
@@ -165,5 +179,5 @@ footer {
 
 #style {
     color: #fff;
-    font-size: 14px;
+    font-size: 10px;
 }
