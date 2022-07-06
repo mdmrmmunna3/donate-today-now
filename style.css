@@ -127,8 +127,26 @@ p{
 }
 
 
+.my-update{
+    text-align: center;
+}
 
+.update-mail{
+    margin: 5% 20%;
+    padding: 50px 0;
+    background-color: rgba(255, 228, 196, 0.699);
+}
 
+.input{
+    background-color: rgba(156, 148, 148, 0.452);
+    padding: 10px ;
+    padding-left: 10px;
+    border: none;
+    border-radius: 3px;
+}
+#btn2 {
+    border: none;
+}
 
 footer {
     text-align: center;
