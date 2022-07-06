@@ -5,15 +5,11 @@ body{
     margin: 0;
 }
 
-.margin-gap{
-    margin-bottom: 5%;
-}
-
 .top-banner{
     background-image: url(images/donate16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    
+    margin-bottom: 8%;
 }
 
 .heading-details{
@@ -24,12 +20,23 @@ body{
 
 .titel {
  
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     font-weight: 700;
 }
 
+.heading2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
 p{
+    
+    color: rgba(58, 57, 57, 0.781);
+    margin-bottom: 30px;
+}
+
+.text-line {
     font-size: 18px;
     color: #cfc1c1;
     margin-bottom: 30px;
@@ -43,9 +50,11 @@ p{
     color: #fff;
 }
 
+/*second section part*/
 .donate-help{
     margin: 30px 80px;
     text-align: center;
+    margin-bottom: 8%;
 }
 
 #size {
@@ -77,4 +86,42 @@ p{
     margin-left: 20%;
     border-bottom: 1px solid rgb(219, 212, 212);
     padding-bottom: 10px;
+}
+
+/*third section part */
+.donation-banner{
+    margin-bottom: 8%;
+}
+
+.donation-plan {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#parent-div {
+    display: flex;
+    margin: 10px 60px;
+    
+}
+
+.child-div {
+    margin-left: 20px;
+}
+
+#first-child{
+    background-color: rgba(229, 149, 162, 0.486);
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+#second-child {
+    border-radius: 5px;
+    background-color: rgba(108, 191, 224, 0.253);
+    padding: 30px 20px;
+}
+
+#third-child {
+    background-color: rgba(255, 228, 196, 0.541);
+    border-radius: 5px;
+    padding: 30px 20px;
 }
