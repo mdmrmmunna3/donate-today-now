@@ -125,3 +125,27 @@ p{
     border-radius: 5px;
     padding: 30px 20px;
 }
+
+
+
+
+
+footer {
+    text-align: center;
+}
+
+#footer-style {
+    background-color: black;
+    padding: 30px;
+}
+
+#text-style {
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+
+#style {
+    color: #fff;
+    font-size: 14px;
+}
