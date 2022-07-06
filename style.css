@@ -1,13 +1,19 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+.margin-gap{
+    margin-bottom: 5%;
 }
 
 .top-banner{
     background-image: url(images/donate16.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 
 .heading-details{
@@ -16,15 +22,17 @@ body{
     padding-top: 10px;
 }
 
-h1 {
+.titel {
  
     font-size: 35px;
     color: white;
+    font-weight: 700;
 }
 
 p{
     font-size: 18px;
     color: #cfc1c1;
+    margin-bottom: 30px;
 }
 
 .link-btn {
@@ -33,4 +41,40 @@ p{
     padding: 10px 30px;
     border-radius: 5px;
     color: #fff;
+}
+
+.donate-help{
+    margin: 30px 80px;
+    text-align: center;
+}
+
+#size {
+    font-size: 14px;
+    color: rgb(145, 134, 134);
+}
+
+.donate-money {
+    display: flex;
+    margin: 30px 130px;
+    
+}
+
+.donate-money h1 {
+    margin: 30px 45px;
+    padding: 30px 15px;
+    border-radius: 4px;
+    background-color: #9b949415;
+}
+
+#color{
+    color: tomato;
+    background-color: rgba(255, 99, 71, 0.24);
+    border: 2px solid tomato;
+}
+
+#other-way{
+    width: 700px;
+    margin-left: 20%;
+    border-bottom: 1px solid rgb(219, 212, 212);
+    padding-bottom: 10px;
 }
